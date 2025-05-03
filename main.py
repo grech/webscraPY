@@ -20,14 +20,8 @@ if __name__ == "__main__":
      
      urls=[
           "https://chavitosclub.netlify.app/",
-          "https://www.google.com",
-          "https://www.bing.com",
-          "https://www.duckduckgo.com",
-          "https://www.github.com",
-          "https://www.stackoverflow.com",
-          "https://www.reddit.com",
-          "https://www.quora.com",
-          "https://www.wikipedia.org"
+          "https://google.com/",
+          "https://www.cnbc.com/quotes/US10Y?qfsearchterm="
      ]
      
      for url in urls:
