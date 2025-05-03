@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL files
+
+**pycache**/
+\*.py\[cod]
+\*\$py.class
+
+# Virtual environment
+
+venv/
+.env
+
+# Distribution / packaging
+
+build/
+dist/
+\*.egg-info/
+.eggs/
+
+target/
+
+# Installer logs
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.\*
+.cache
+.pytest\_cache/
+nosetests.xml
+coverage.xml
+\*.cover
+\*.py,cover
+.hypothesis/
+
+# PyBuilder
+
+target/
+
+# Jupyter Notebook checkpoints
+
+.ipynb\_checkpoints/
+
+# IDE settings
+
+.vscode/
+.idea/
+
+# macOS
+
+.DS\_Store
+
+# MyPy
+
+.mypy\_cache/
+.dmypy.json
+
+# Scraped data outputs
+
+scraped\_page.json
+scraped\_pages.json
