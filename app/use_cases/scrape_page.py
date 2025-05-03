@@ -9,4 +9,6 @@ class PageScraper:
      def scrape(self, url: str) -> Page:
           html = self.parser.get_html(url)
           title = self.parser.parse_title(html)
-          return Page(url = url, title = title)
+          h1 = self.parser.parse_h1(html)
+          # h1 = self.parser
+          return Page(url = url, title = title, h1=h1)

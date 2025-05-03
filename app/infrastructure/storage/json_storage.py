@@ -25,7 +25,8 @@ class JsonFileStorage(StorageRepository):
                # Agrega la nueva pagina
                data.append({
                     "url": page.url,
-                    "title": page.title
+                    "title": page.title,
+                    "h1": page.h1
                })
                # escribe de nuevo en el archivo
                f.seek(0)
